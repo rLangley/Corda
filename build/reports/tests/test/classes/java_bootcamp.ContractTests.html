@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class java_bootcamp.ContractTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class java_bootcamp.ContractTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/java_bootcamp.html">java_bootcamp</a> &gt; ContractTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">8</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">8</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.322s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="tokenContractImplementsContract"></a>
+<h3 class="failures">tokenContractImplementsContract</h3>
+<span class="code">
+<pre>java.lang.AssertionError
+	at java_bootcamp.ContractTests.tokenContractImplementsContract(ContractTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="tokenContractRequiresOneCommandInTheTransaction"></a>
+<h3 class="failures">tokenContractRequiresOneCommandInTheTransaction</h3>
+<span class="code">
+<pre>net.corda.core.transactions.MissingContractAttachments: Cannot find contract attachments for [java_bootcamp.TokenContract]. See https://docs.corda.net/api-contract-constraints.html#debugging
+	at net.corda.core.transactions.TransactionBuilder.toWireTransactionWithContext$core(TransactionBuilder.kt:109)
+	at net.corda.core.transactions.TransactionBuilder.toWireTransactionWithContext$core$default(TransactionBuilder.kt:97)
+	at net.corda.core.transactions.TransactionBuilder.toWireTransaction(TransactionBuilder.kt:95)
+	at net.corda.testing.dsl.TestTransactionDSLInterpreter.toWireTransaction$test_utils(TestDSL.kt:93)
+	at net.corda.testing.dsl.TestTransactionDSLInterpreter.verifies(TestDSL.kt:131)
+	at net.corda.testing.dsl.TransactionDSL.verifies(TransactionDSLInterpreter.kt)
+	at java_bootcamp.ContractTests.lambda$tokenContractRequiresOneCommandInTheTransaction$5(ContractTests.java:79)
+	at net.corda.testing.node.NodeTestUtils$transaction$1.invoke(NodeTestUtils.kt:50)
+	at net.corda.testing.node.NodeTestUtils$transaction$1.invoke(NodeTestUtils.kt)
+	at net.corda.testing.node.NodeTestUtils$ledger$$inlined$apply$lambda$1.invoke(NodeTestUtils.kt:35)
+	at net.corda.testing.node.NodeTestUtils$ledger$$inlined$apply$lambda$1.invoke(NodeTestUtils.kt)
+	at net.corda.testing.common.internal.CommonSerializationTestHelpersKt.asContextEnv(CommonSerializationTestHelpers.kt:11)
+	at net.corda.testing.core.SerializationEnvironmentRule.runTask(SerializationTestHelpers.kt:72)
+	at net.corda.testing.core.SerializationEnvironmentRule.access$runTask(SerializationTestHelpers.kt:36)
+	at net.corda.testing.core.SerializationEnvironmentRule$Companion.run(SerializationTestHelpers.kt:51)
+	at net.corda.testing.node.NodeTestUtils.ledger(NodeTestUtils.kt:35)
+	at net.corda.testing.node.NodeTestUtils.transaction(NodeTestUtils.kt:49)
+	at net.corda.testing.node.NodeTestUtils.transaction$default(NodeTestUtils.kt:47)
+	at net.corda.testing.node.NodeTestUtils.transaction(NodeTestUtils.kt)
+	at java_bootcamp.ContractTests.tokenContractRequiresOneCommandInTheTransaction(ContractTests.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="tokenContractRequiresOneOutputInTheTransaction"></a>
+<h3 class="failures">tokenContractRequiresOneOutputInTheTransaction</h3>
+<span class="code">
+<pre>net.corda.core.transactions.MissingContractAttachments: Cannot find contract attachments for [java_bootcamp.TokenContract]. See https://docs.corda.net/api-contract-constraints.html#debugging
+	at net.corda.core.transactions.TransactionBuilder.toWireTransactionWithContext$core(TransactionBuilder.kt:109)
+	at net.corda.core.transactions.TransactionBuilder.toWireTransactionWithContext$core$default(TransactionBuilder.kt:97)
+	at net.corda.core.transactions.TransactionBuilder.toWireTransaction(TransactionBuilder.kt:95)
+	at net.corda.testing.dsl.TestTransactionDSLInterpreter.toWireTransaction$test_utils(TestDSL.kt:93)
+	at net.corda.testing.dsl.TestTransactionDSLInterpreter.verifies(TestDSL.kt:131)
+	at net.corda.testing.dsl.TransactionDSL.verifies(TransactionDSLInterpreter.kt)
+	at java_bootcamp.ContractTests.lambda$tokenContractRequiresOneOutputInTheTransaction$3(ContractTests.java:59)
+	at net.corda.testing.node.NodeTestUtils$transaction$1.invoke(NodeTestUtils.kt:50)
+	at net.corda.testing.node.NodeTestUtils$transaction$1.invoke(NodeTestUtils.kt)
+	at net.corda.testing.node.NodeTestUtils$ledger$$inlined$apply$lambda$1.invoke(NodeTestUtils.kt:35)
+	at net.corda.testing.node.NodeTestUtils$ledger$$inlined$apply$lambda$1.invoke(NodeTestUtils.kt)
+	at net.corda.testing.common.internal.CommonSerializationTestHelpersKt.asContextEnv(CommonSerializationTestHelpers.kt:11)
+	at net.corda.testing.core.SerializationEnvironmentRule.runTask(SerializationTestHelpers.kt:72)
+	at net.corda.testing.core.SerializationEnvironmentRule.access$runTask(SerializationTestHelpers.kt:36)
+	at net.corda.testing.core.SerializationEnvironmentRule$Companion.run(SerializationTestHelpers.kt:51)
+	at net.corda.testing.node.NodeTestUtils.ledger(NodeTestUtils.kt:35)
+	at net.corda.testing.node.NodeTestUtils.transaction(NodeTestUtils.kt:49)
+	at net.corda.testing.node.NodeTestUtils.transaction$default(NodeTestUtils.kt:47)
+	at net.corda.testing.node.NodeTestUtils.transaction(NodeTestUtils.kt)
+	at java_bootcamp.ContractTests.tokenContractRequiresOneOutputInTheTransaction(ContractTests.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="tokenContractRequiresTheIssuerToBeARequiredSignerInTheTransaction"></a>
+<h3 class="failures">tokenContractRequiresTheIssuerToBeARequiredSignerInTheTransaction</h3>
+<span class="code">
+<pre>net.corda.core.transactions.MissingContractAttachments: Cannot find contract attachments for [java_bootcamp.TokenContract]. See https://docs.corda.net/api-contract-constraints.html#debugging
+	at net.corda.core.transactions.TransactionBuilder.toWireTransactionWithContext$core(TransactionBuilder.kt:109)
+	at net.corda.core.transactions.TransactionBuilder.toWireTransactionWithContext$core$default(TransactionBuilder.kt:97)
+	at net.corda.core.transactions.TransactionBuilder.toWireTransaction(TransactionBuilder.kt:95)
+	at net.corda.testing.dsl.TestTransactionDSLInterpreter.toWireTransaction$test_utils(TestDSL.kt:93)
+	at net.corda.testing.dsl.TestTransactionDSLInterpreter.verifies(TestDSL.kt:131)
+	at net.corda.testing.dsl.TransactionDSL.verifies(TransactionDSLInterpreter.kt)
+	at java_bootcamp.ContractTests.lambda$tokenContractRequiresTheIssuerToBeARequiredSignerInTheTransaction$16(ContractTests.java:185)
+	at net.corda.testing.node.NodeTestUtils$transaction$1.invoke(NodeTestUtils.kt:50)
+	at net.corda.testing.node.NodeTestUtils$transaction$1.invoke(NodeTestUtils.kt)
+	at net.corda.testing.node.NodeTestUtils$ledger$$inlined$apply$lambda$1.invoke(NodeTestUtils.kt:35)
+	at net.corda.testing.node.NodeTestUtils$ledger$$inlined$apply$lambda$1.invoke(NodeTestUtils.kt)
+	at net.corda.testing.common.internal.CommonSerializationTestHelpersKt.asContextEnv(CommonSerializationTestHelpers.kt:11)
+	at net.corda.testing.core.SerializationEnvironmentRule.runTask(SerializationTestHelpers.kt:72)
+	at net.corda.testing.core.SerializationEnvironmentRule.access$runTask(SerializationTestHelpers.kt:36)
+	at net.corda.testing.core.SerializationEnvironmentRule$Companion.run(SerializationTestHelpers.kt:51)
+	at net.corda.testing.node.NodeTestUtils.ledger(NodeTestUtils.kt:35)
+	at net.corda.testing.node.NodeTestUtils.transaction(NodeTestUtils.kt:49)
+	at net.corda.testing.node.NodeTestUtils.transaction$default(NodeTestUtils.kt:47)
+	at net.corda.testing.node.NodeTestUtils.transaction(NodeTestUtils.kt)
+	at java_bootcamp.ContractTests.tokenContractRequiresTheIssuerToBeARequiredSignerInTheTransaction(ContractTests.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="tokenContractRequiresTheTransactionsCommandToBeAnIssueCommand"></a>
+<h3 class="failures">tokenContractRequiresTheTransactionsCommandToBeAnIssueCommand</h3>
+<span class="code">
+<pre>net.corda.core.transactions.MissingContractAttachments: Cannot find contract attachments for [java_bootcamp.TokenContract]. See https://docs.corda.net/api-contract-constraints.html#debugging
+	at net.corda.core.transactions.TransactionBuilder.toWireTransactionWithContext$core(TransactionBuilder.kt:109)
+	at net.corda.core.transactions.TransactionBuilder.toWireTransactionWithContext$core$default(TransactionBuilder.kt:97)
+	at net.corda.core.transactions.TransactionBuilder.toWireTransaction(TransactionBuilder.kt:95)
+	at net.corda.testing.dsl.TestTransactionDSLInterpreter.toWireTransaction$test_utils(TestDSL.kt:93)
+	at net.corda.testing.dsl.TestTransactionDSLInterpreter.verifies(TestDSL.kt:131)
+	at net.corda.testing.dsl.TransactionDSL.verifies(TransactionDSLInterpreter.kt)
+	at java_bootcamp.ContractTests.lambda$tokenContractRequiresTheTransactionsCommandToBeAnIssueCommand$13(ContractTests.java:156)
+	at net.corda.testing.node.NodeTestUtils$transaction$1.invoke(NodeTestUtils.kt:50)
+	at net.corda.testing.node.NodeTestUtils$transaction$1.invoke(NodeTestUtils.kt)
+	at net.corda.testing.node.NodeTestUtils$ledger$$inlined$apply$lambda$1.invoke(NodeTestUtils.kt:35)
+	at net.corda.testing.node.NodeTestUtils$ledger$$inlined$apply$lambda$1.invoke(NodeTestUtils.kt)
+	at net.corda.testing.common.internal.CommonSerializationTestHelpersKt.asContextEnv(CommonSerializationTestHelpers.kt:11)
+	at net.corda.testing.core.SerializationEnvironmentRule.runTask(SerializationTestHelpers.kt:72)
+	at net.corda.testing.core.SerializationEnvironmentRule.access$runTask(SerializationTestHelpers.kt:36)
+	at net.corda.testing.core.SerializationEnvironmentRule$Companion.run(SerializationTestHelpers.kt:51)
+	at net.corda.testing.node.NodeTestUtils.ledger(NodeTestUtils.kt:35)
+	at net.corda.testing.node.NodeTestUtils.transaction(NodeTestUtils.kt:49)
+	at net.corda.testing.node.NodeTestUtils.transaction$default(NodeTestUtils.kt:47)
+	at net.corda.testing.node.NodeTestUtils.transaction(NodeTestUtils.kt)
+	at java_bootcamp.ContractTests.tokenContractRequiresTheTransactionsCommandToBeAnIssueCommand(ContractTests.java:152)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="tokenContractRequiresTheTransactionsOutputToBeATokenState"></a>
+<h3 class="failures">tokenContractRequiresTheTransactionsOutputToBeATokenState</h3>
+<span class="code">
+<pre>net.corda.core.transactions.MissingContractAttachments: Cannot find contract attachments for [java_bootcamp.TokenContract]. See https://docs.corda.net/api-contract-constraints.html#debugging
+	at net.corda.core.transactions.TransactionBuilder.toWireTransactionWithContext$core(TransactionBuilder.kt:109)
+	at net.corda.core.transactions.TransactionBuilder.toWireTransactionWithContext$core$default(TransactionBuilder.kt:97)
+	at net.corda.core.transactions.TransactionBuilder.toWireTransaction(TransactionBuilder.kt:95)
+	at net.corda.testing.dsl.TestTransactionDSLInterpreter.toWireTransaction$test_utils(TestDSL.kt:93)
+	at net.corda.testing.dsl.TestTransactionDSLInterpreter.verifies(TestDSL.kt:131)
+	at net.corda.testing.dsl.TransactionDSL.verifies(TransactionDSLInterpreter.kt)
+	at java_bootcamp.ContractTests.lambda$tokenContractRequiresTheTransactionsOutputToBeATokenState$7(ContractTests.java:98)
+	at net.corda.testing.node.NodeTestUtils$transaction$1.invoke(NodeTestUtils.kt:50)
+	at net.corda.testing.node.NodeTestUtils$transaction$1.invoke(NodeTestUtils.kt)
+	at net.corda.testing.node.NodeTestUtils$ledger$$inlined$apply$lambda$1.invoke(NodeTestUtils.kt:35)
+	at net.corda.testing.node.NodeTestUtils$ledger$$inlined$apply$lambda$1.invoke(NodeTestUtils.kt)
+	at net.corda.testing.common.internal.CommonSerializationTestHelpersKt.asContextEnv(CommonSerializationTestHelpers.kt:11)
+	at net.corda.testing.core.SerializationEnvironmentRule.runTask(SerializationTestHelpers.kt:72)
+	at net.corda.testing.core.SerializationEnvironmentRule.access$runTask(SerializationTestHelpers.kt:36)
+	at net.corda.testing.core.SerializationEnvironmentRule$Companion.run(SerializationTestHelpers.kt:51)
+	at net.corda.testing.node.NodeTestUtils.ledger(NodeTestUtils.kt:35)
+	at net.corda.testing.node.NodeTestUtils.transaction(NodeTestUtils.kt:49)
+	at net.corda.testing.node.NodeTestUtils.transaction$default(NodeTestUtils.kt:47)
+	at net.corda.testing.node.NodeTestUtils.transaction(NodeTestUtils.kt)
+	at java_bootcamp.ContractTests.tokenContractRequiresTheTransactionsOutputToBeATokenState(ContractTests.java:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="tokenContractRequiresTheTransactionsOutputToHaveAPositiveAmount"></a>
+<h3 class="failures">tokenContractRequiresTheTransactionsOutputToHaveAPositiveAmount</h3>
+<span class="code">
+<pre>net.corda.core.transactions.MissingContractAttachments: Cannot find contract attachments for [java_bootcamp.TokenContract]. See https://docs.corda.net/api-contract-constraints.html#debugging
+	at net.corda.core.transactions.TransactionBuilder.toWireTransactionWithContext$core(TransactionBuilder.kt:109)
+	at net.corda.core.transactions.TransactionBuilder.toWireTransactionWithContext$core$default(TransactionBuilder.kt:97)
+	at net.corda.core.transactions.TransactionBuilder.toWireTransaction(TransactionBuilder.kt:95)
+	at net.corda.testing.dsl.TestTransactionDSLInterpreter.toWireTransaction$test_utils(TestDSL.kt:93)
+	at net.corda.testing.dsl.TestTransactionDSLInterpreter.verifies(TestDSL.kt:131)
+	at net.corda.testing.dsl.TransactionDSL.verifies(TransactionDSLInterpreter.kt)
+	at java_bootcamp.ContractTests.lambda$tokenContractRequiresTheTransactionsOutputToHaveAPositiveAmount$10(ContractTests.java:129)
+	at net.corda.testing.node.NodeTestUtils$transaction$1.invoke(NodeTestUtils.kt:50)
+	at net.corda.testing.node.NodeTestUtils$transaction$1.invoke(NodeTestUtils.kt)
+	at net.corda.testing.node.NodeTestUtils$ledger$$inlined$apply$lambda$1.invoke(NodeTestUtils.kt:35)
+	at net.corda.testing.node.NodeTestUtils$ledger$$inlined$apply$lambda$1.invoke(NodeTestUtils.kt)
+	at net.corda.testing.common.internal.CommonSerializationTestHelpersKt.asContextEnv(CommonSerializationTestHelpers.kt:11)
+	at net.corda.testing.core.SerializationEnvironmentRule.runTask(SerializationTestHelpers.kt:72)
+	at net.corda.testing.core.SerializationEnvironmentRule.access$runTask(SerializationTestHelpers.kt:36)
+	at net.corda.testing.core.SerializationEnvironmentRule$Companion.run(SerializationTestHelpers.kt:51)
+	at net.corda.testing.node.NodeTestUtils.ledger(NodeTestUtils.kt:35)
+	at net.corda.testing.node.NodeTestUtils.transaction(NodeTestUtils.kt:49)
+	at net.corda.testing.node.NodeTestUtils.transaction$default(NodeTestUtils.kt:47)
+	at net.corda.testing.node.NodeTestUtils.transaction(NodeTestUtils.kt)
+	at java_bootcamp.ContractTests.tokenContractRequiresTheTransactionsOutputToHaveAPositiveAmount(ContractTests.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="tokenContractRequiresZeroInputsInTheTransaction"></a>
+<h3 class="failures">tokenContractRequiresZeroInputsInTheTransaction</h3>
+<span class="code">
+<pre>net.corda.core.transactions.MissingContractAttachments: Cannot find contract attachments for [java_bootcamp.TokenContract]. See https://docs.corda.net/api-contract-constraints.html#debugging
+	at net.corda.core.transactions.TransactionBuilder.makeContractAttachments(TransactionBuilder.kt:130)
+	at net.corda.core.transactions.TransactionBuilder.access$makeContractAttachments(TransactionBuilder.kt:36)
+	at net.corda.core.transactions.TransactionBuilder$toWireTransactionWithContext$1.invoke(TransactionBuilder.kt:114)
+	at net.corda.core.transactions.TransactionBuilder$toWireTransactionWithContext$1.invoke(TransactionBuilder.kt:36)
+	at net.corda.core.serialization.SerializationFactory.withCurrentContext(SerializationAPI.kt:66)
+	at net.corda.core.transactions.TransactionBuilder.toWireTransactionWithContext$core(TransactionBuilder.kt:113)
+	at net.corda.core.transactions.TransactionBuilder.toWireTransactionWithContext$core$default(TransactionBuilder.kt:97)
+	at net.corda.core.transactions.TransactionBuilder.toWireTransaction(TransactionBuilder.kt:95)
+	at net.corda.testing.dsl.TestTransactionDSLInterpreter.toWireTransaction$test_utils(TestDSL.kt:93)
+	at net.corda.testing.dsl.TestLedgerDSLInterpreter.recordTransactionWithTransactionMap(TestDSL.kt:240)
+	at net.corda.testing.dsl.TestLedgerDSLInterpreter._unverifiedTransaction(TestDSL.kt:278)
+	at net.corda.testing.dsl.TransactionDSL.input(TransactionDSLInterpreter.kt:95)
+	at java_bootcamp.ContractTests.lambda$tokenContractRequiresZeroInputsInTheTransaction$0(ContractTests.java:28)
+	at net.corda.testing.node.NodeTestUtils$transaction$1.invoke(NodeTestUtils.kt:50)
+	at net.corda.testing.node.NodeTestUtils$transaction$1.invoke(NodeTestUtils.kt)
+	at net.corda.testing.node.NodeTestUtils$ledger$$inlined$apply$lambda$1.invoke(NodeTestUtils.kt:35)
+	at net.corda.testing.node.NodeTestUtils$ledger$$inlined$apply$lambda$1.invoke(NodeTestUtils.kt)
+	at net.corda.testing.common.internal.CommonSerializationTestHelpersKt.asContextEnv(CommonSerializationTestHelpers.kt:11)
+	at net.corda.testing.core.SerializationEnvironmentRule.runTask(SerializationTestHelpers.kt:72)
+	at net.corda.testing.core.SerializationEnvironmentRule.access$runTask(SerializationTestHelpers.kt:36)
+	at net.corda.testing.core.SerializationEnvironmentRule$Companion.run(SerializationTestHelpers.kt:51)
+	at net.corda.testing.node.NodeTestUtils.ledger(NodeTestUtils.kt:35)
+	at net.corda.testing.node.NodeTestUtils.transaction(NodeTestUtils.kt:49)
+	at net.corda.testing.node.NodeTestUtils.transaction$default(NodeTestUtils.kt:47)
+	at net.corda.testing.node.NodeTestUtils.transaction(NodeTestUtils.kt)
+	at java_bootcamp.ContractTests.tokenContractRequiresZeroInputsInTheTransaction(ContractTests.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">tokenContractImplementsContract</td>
+<td>0s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">tokenContractRequiresOneCommandInTheTransaction</td>
+<td>0.003s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">tokenContractRequiresOneOutputInTheTransaction</td>
+<td>1.274s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">tokenContractRequiresTheIssuerToBeARequiredSignerInTheTransaction</td>
+<td>0.005s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">tokenContractRequiresTheTransactionsCommandToBeAnIssueCommand</td>
+<td>0.007s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">tokenContractRequiresTheTransactionsOutputToBeATokenState</td>
+<td>0.006s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">tokenContractRequiresTheTransactionsOutputToHaveAPositiveAmount</td>
+<td>0.006s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">tokenContractRequiresZeroInputsInTheTransaction</td>
+<td>0.021s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2019-04-04 20:10:16,045 Test worker WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+2019-04-04 20:10:16,049 Test worker WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+[INFO ] 20:10:16,224 [Test worker] (CordappLoader.kt:137) cordapp.CordappLoader.createDevCordappJar - Generating a test-only cordapp of classes discovered in java_bootcamp at build\tmp\generated-test-cordapps\java_bootcamp-39aa93db-9a74-41f1-a52b-fbb9fd2a1126.jar {}
+[INFO ] 20:10:16,269 [Test worker] (CordappLoader.kt:137) cordapp.CordappLoader.createDevCordappJar - Generating a test-only cordapp of classes discovered in java_bootcamp at build\tmp\generated-test-cordapps\java_bootcamp-5165207f-4a93-4e95-b3fb-2e7153130c48.jar {}
+[INFO ] 20:10:16,309 [Test worker] (CordappLoader.kt:53) cordapp.CordappLoader.&lt;init&gt; - Loading CorDapps from file:/F:/Documents/GitHub/bootcamp-cordapp/build/tmp/generated-test-cordapps/java_bootcamp-39aa93db-9a74-41f1-a52b-fbb9fd2a1126.jar, file:/F:/Documents/GitHub/bootcamp-cordapp/build/tmp/generated-test-cordapps/java_bootcamp-5165207f-4a93-4e95-b3fb-2e7153130c48.jar {}
+[INFO ] 20:10:16,363 [Test worker] (CordappLoader.kt:270) cordapp.CordappLoader.scanCordapp - Scanning CorDapp in file:/F:/Documents/GitHub/bootcamp-cordapp/build/tmp/generated-test-cordapps/java_bootcamp-39aa93db-9a74-41f1-a52b-fbb9fd2a1126.jar {}
+[INFO ] 20:10:16,472 [Test worker] (CordappLoader.kt:270) cordapp.CordappLoader.scanCordapp - Scanning CorDapp in file:/F:/Documents/GitHub/bootcamp-cordapp/build/tmp/generated-test-cordapps/java_bootcamp-5165207f-4a93-4e95-b3fb-2e7153130c48.jar {}
+[WARN ] 20:10:16,488 [Test worker] (CordappProviderImpl.kt:40) cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html {}
+[WARN ] 20:10:17,787 [Test worker] (CordappProviderImpl.kt:40) cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html {}
+[WARN ] 20:10:17,810 [Test worker] (CordappProviderImpl.kt:40) cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html {}
+[WARN ] 20:10:17,830 [Test worker] (CordappProviderImpl.kt:40) cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html {}
+[WARN ] 20:10:17,854 [Test worker] (CordappProviderImpl.kt:40) cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html {}
+[WARN ] 20:10:17,872 [Test worker] (CordappProviderImpl.kt:40) cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html {}
+[WARN ] 20:10:17,889 [Test worker] (CordappProviderImpl.kt:40) cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html {}
+[WARN ] 20:10:17,908 [Test worker] (CordappProviderImpl.kt:40) cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html {}
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.4.1</a> at Apr 4, 2019 8:10:18 PM</p>
+</div>
+</div>
+</body>
+</html>
